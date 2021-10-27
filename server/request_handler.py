@@ -130,7 +130,7 @@ class Server(object):
             conn.close()
 
     def connection_thread(self):
-        server = "localhost"
+        server = socket.gethostbyname(socket.gethostname())
         port = 5556
 
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

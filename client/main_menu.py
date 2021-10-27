@@ -11,8 +11,8 @@ class MainMenu:
     BG = (255,255,255)
 
     def __init__(self):
-        self.WIDTH = 1300
-        self.HEIGHT = 1000
+        self.WIDTH = 1200
+        self.HEIGHT = 960
         self.win = pygame.display.set_mode((self.WIDTH, self.HEIGHT))
         self.name = ""
         self.waiting = False
