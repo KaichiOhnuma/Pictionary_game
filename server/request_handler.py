@@ -154,6 +154,4 @@ if __name__ == "__main__":
     s = Server()
     thread = threading.Thread(target=s.connection_thread)
     thread.start()
-                        
-
-
+                    

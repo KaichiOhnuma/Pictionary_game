@@ -48,3 +48,4 @@ class Network:
     def disconnect(self, msg):
         print("[EXCEPTION] Disconnected from server:", msg)
         self.client.close()
+        

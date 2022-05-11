@@ -9,7 +9,6 @@ from player import Player
 
 class MainMenu:
     BG = (255,255,255)
-
     def __init__(self):
         self.WIDTH = 1200
         self.HEIGHT = 960
